@@ -1,6 +1,7 @@
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import cross_val_score
-from sklearn.metrics import mean_squared_error , root_mean_squared_error, mean_absolute_error
+from sklearn.metrics import mean_squared_error , mean_absolute_error
+from sklearn.metrics import root_mean_squared_error
 
 forest_model = RandomForestRegressor(n_estimators = 100, random_state=42)
 forest_model.fit(train_data, train_labels)
