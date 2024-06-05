@@ -1,4 +1,5 @@
 from sklearn.tree import DecisionTreeRegressor
+from sklearn.metrics import mean_squared_error , root_mean_squared_error, mean_absolute_error
 
 tree_model = DecisionTreeRegressor(random_state=42)
 tree_model.fit(train_data, train_labels)
