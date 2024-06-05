@@ -1,6 +1,6 @@
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error , root_mean_squared_error, mean_absolute_error
-
+from sklearn.metrics import mean_squared_error , mean_absolute_error
+from sklearn.metrics import root_mean_squared_error
 lin_model = LinearRegression()
 lin_model.fit(train_data, train_labels)
 
