@@ -19,7 +19,7 @@ Project Organization
     │
     ├── models             <- Contains python standalone codes for the various regression models used in this project. 
     │
-    ├── notebooks          <- Jupyter notebooks. Contains the housing pricing notebook where you can find all the codes for this project.
+    ├── notebooks          <- Jupyter notebooks. Contains the housing price predictor model notebook where you can find all the codes for this project.
     │                         
     │                        
     │
