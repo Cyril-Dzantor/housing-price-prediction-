@@ -13,7 +13,7 @@ Project Organization
     │   ├── external       <- Data from third party sources. (Empty)
     │   ├── interim        <- Intermediate data that has been transformed.(Empty)
     │   ├── processed      <- The final, canonical data sets for modeling.(Empty)
-    │   └── raw            <- The original, immutable data dump. (Contains the housinf data set)
+    │   └── raw            <- The original, immutable data dump. (Contains the housing data set)
     │
     ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
